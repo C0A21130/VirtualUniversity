@@ -1,0 +1,71 @@
+.gakubu {
+    
+    .anime {
+        display: flex;
+        justify-content: center;
+
+        .text {
+            font-family: 'DotGothic16', sans-serif;
+            width: 250px;
+            margin: 0 30px;
+            text-align: center;
+        }
+    }
+
+    // 学部名の一覧
+    .gakubu-menu {
+        font-family: 'DotGothic16', sans-serif;
+        display: flex;
+        justify-content: center;
+
+        .menu-item {
+            width: 250px;
+            height: 250px;
+            margin: 10px;
+
+            .menu-image {
+                width: 150px;
+                height: 150px;
+                margin: 35px 50px;
+            }
+
+            p{
+                height: 30px;
+                text-align: center;
+                margin: 0;
+                font-size: 1.3rem;
+            }
+        }
+
+        #drone-item {
+            .menu-image {
+                margin: 70px 50px 0 50px;
+            }
+        }
+    }
+
+    // 学部の説明
+    .gakubu-content {
+        display: flex;
+        margin: 15px 10%;
+        
+        .gakubu-image {
+            width: 45%;
+        }
+
+        .gakubu-text {
+            width: 55%;
+            text-align: center;
+            margin: 0 20px;
+
+            h2 {
+                margin: 50px 0 0 0;
+            }
+
+            .sub-title {
+                margin: 0;
+                color: #a0a0a0;
+            }
+        }
+    }
+}

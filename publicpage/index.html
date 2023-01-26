@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>17工科大学</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./kougaku.css">
+</head>
+<body>
+    <header>
+        <div class="header-block">
+            <h1><a href="http://www106.pbcloud.cs.priv.teu.ac.jp/">17工科大学</a></h1>
+            <div class="nav">
+                <input id="drawer_input" class="drawer_hidden" type="checkbox">
+                <label for="drawer_input" class="drawer_open"><span></span></label>
+                <nav class="nav_content">
+                    <ul class="nav_list">
+                        <li class="nav-item"><a href="http://www106.pbcloud.cs.priv.teu.ac.jp/~c0a21040/">情報学部</a></li>
+                        <li class="nav-item"><a href="http://www106.pbcloud.cs.priv.teu.ac.jp/~c0a21130/">先進工学部</a></li>
+                        <li class="nav-item"><a href="http://www106.pbcloud.cs.priv.teu.ac.jp/~c0a21086/">建築学部</a></li>
+                        <li class="nav-item"><a href="http://www106.pbcloud.cs.priv.teu.ac.jp/~c0b21187/">医学部</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="space"></div>
+    <div class="slider">
+        <div class="slider-item"><img src="png/slide/slide3.png"></div>
+    </div>
+    <div class="menu">
+        <div class="blog">
+            <a href="http://www106.pbcloud.cs.priv.teu.ac.jp/wordpress/">
+                <div><img src="./png/menu/blog.png"></img></div>
+                <p>大学公式ブログ</p>
+            </a>
+        </div>
+        <div class="gakka">
+            <a href="http://www106.pbcloud.cs.priv.teu.ac.jp/index.html#intro-gakka">
+                <div><img src="./png/menu/book.png"></img></div>
+                <p>学科紹介</p>
+            </a>
+        </div>
+        <div class="sa-kuru">
+            <a href="http://www106.pbcloud.cs.priv.teu.ac.jp/index.html#sa-kuru">
+                <div><img src="./png/menu/shoes.png"></img></div>
+                <p>サークル</p>
+            </a>
+        </div>
+    </div>
+    <div class="kougaku-block">
+        <div class="bg">
+            <div class="kougaku">
+                <p>Advanced Engineering</p>
+                <h3>先進工学部</h3>
+                <p>エネルギーとテクノロジーでサスティナビリティな社会へ</p>
+                <ul>
+                    <li>機械工学科</li>
+                    <li>電気電子工学科</li>
+                    <li>ドローン学科</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="gakubu">
+        <div class="anime">
+            <div class="canva"><canvas id="mycanva"></canvas></div>
+            <div class="text"><h2>What is ENGINEERING?</h2></div>
+        </div>
+        <div class="gakubu-menu">
+            <div class="menu-item">
+                <div class="menu-image"><img alt="mecanical" src="./png/menu/mecanical.png"></img></div>
+                <p>機械工学科</p>
+            </div>
+            <div class="menu-item">
+                <div class="menu-image"><img alt="electrical" src="./png/menu/electronic.png"></img></div>
+                <p>電気電子工学科</p>
+            </div>
+            <div class="menu-item" id="drone-item">
+                <div class="menu-image"><img alt="drone" src="./png/menu/drone.png"></img></div>
+                <p>ドローン学科</p>
+            </div>
+        </div>
+        <div class="gakubu-content" id="mechanical-block" data-aos="fade-right">
+            <div class="gakubu-image"><img src="./png/gakka/mecanical.jpg"></img></div>
+            <div class="gakubu-text">
+                <h2>機械工学科</h2>
+                <p class="sub-title">Mechanical Engineering Faculty</p>
+                <p>機械工学科ではサスティナビリティな継続的な社会に向けたエネルギーの取り組みや機械の仕組みを基礎から学習することで技術力を鍛える</p>
+            </div>
+        </div>
+        <div class="gakubu-content" id="electrical-block" data-aos="fade-left">
+            <div class="gakubu-image"><img src="./png/gakka/electronic.jpg"></img></div>
+            <div class="gakubu-text">
+                <h2>電気電子工学科</h2>
+                <p class="sub-title">Electrical and Electronic Faculty</p>
+                <p>電気電子工学科ではネットワークと電子回路を利用したIOTシステムや効率的な電力システムの構築に向けた技術を勉強できる</p>
+            </div>
+        </div>
+        <div class="gakubu-content" id="drone-block" data-aos="fade-right">
+            <div class="gakubu-image"><img src="./png/gakka/drone.jpg"></img></div>
+            <div class="gakubu-text">
+                <h2>ドローン学科</h2>
+                <p class="sub-title">Drone Faculty</p>
+                <p>ドローン学科では無人の遠隔操作が可能なドローンシステムやドローンの操作・免許の取得や流体力学の基礎理論を学べる</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="name">17東京工科大学</p>
+        <div class="links">
+            <p><a href="http://www106.pbcloud.cs.priv.teu.ac.jp/wordpress/">大学公式ブログ</a></p>
+            <p><a href="http://www106.pbcloud.cs.priv.teu.ac.jp/index.html">大学トップページ</a></p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/three@0.146.0/build/three.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>

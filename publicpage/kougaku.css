@@ -1,0 +1,53 @@
+.gakubu .anime {
+  display: flex;
+  justify-content: center;
+}
+.gakubu .anime .text {
+  font-family: "DotGothic16", sans-serif;
+  width: 250px;
+  margin: 0 30px;
+  text-align: center;
+}
+.gakubu .gakubu-menu {
+  font-family: "DotGothic16", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.gakubu .gakubu-menu .menu-item {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+.gakubu .gakubu-menu .menu-item .menu-image {
+  width: 150px;
+  height: 150px;
+  margin: 35px 50px;
+}
+.gakubu .gakubu-menu .menu-item p {
+  height: 30px;
+  text-align: center;
+  margin: 0;
+  font-size: 1.3rem;
+}
+.gakubu .gakubu-menu #drone-item .menu-image {
+  margin: 70px 50px 0 50px;
+}
+.gakubu .gakubu-content {
+  display: flex;
+  margin: 15px 10%;
+}
+.gakubu .gakubu-content .gakubu-image {
+  width: 45%;
+}
+.gakubu .gakubu-content .gakubu-text {
+  width: 55%;
+  text-align: center;
+  margin: 0 20px;
+}
+.gakubu .gakubu-content .gakubu-text h2 {
+  margin: 50px 0 0 0;
+}
+.gakubu .gakubu-content .gakubu-text .sub-title {
+  margin: 0;
+  color: #a0a0a0;
+}/*# sourceMappingURL=kougaku.css.map */
